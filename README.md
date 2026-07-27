@@ -163,6 +163,12 @@ Consulta en tiempo real sobre el flujo de aprobación de pagos, demostrando recu
 
 Estas validaciones demuestran el correcto funcionamiento de la arquitectura RAG implementada.
 ---
+# ☁️ Despliegue e Infraestructura Cloud
+
+[https://challenge-rag-finanzas-ia-9gjurcgs25jvsidrnmex6f.streamlit.app](https://challenge-rag-finanzas-ia-9gjurcgs25jvsidrnmex6f.streamlit.app)
+
+<img width="1340" height="670" alt="Deploy OCI - Streamlit" src="https://github.com/user-attachments/assets/03015dc2-6dff-49d5-90dd-842e78c76c6d" />
+
 
 # 🚀 Mejoras Futuras
 
@@ -172,20 +178,6 @@ Estas validaciones demuestran el correcto funcionamiento de la arquitectura RAG 
 - Agregar memoria conversacional.
 - Permitir carga dinámica de documentos por parte del usuario.
 - Incorporar historial de consultas.
----
-
-# 👨‍💻 Autor
-
-Proyecto desarrollado por **Joel Bustos** como parte del **Challenge Alura – Agentes de IA**, aplicando técnicas de Inteligencia Artificial Generativa, Recuperación Aumentada por Generación (RAG) y búsqueda semántica sobre documentación corporativa.
-
-Tecnologías principales:
-
-- Google Gemini
-- LangChain
-- FAISS
-- Python
-- Google Colab
-- GitHub
 ---
 
 # 💻 Instalación
@@ -272,7 +264,19 @@ Durante el desarrollo de este proyecto se aplicaron conceptos fundamentales de I
 
 Este proyecto permitió comprender el flujo completo necesario para construir un asistente inteligente capaz de consultar documentación empresarial utilizando lenguaje natural.
 ---
+# 👨‍💻 Autor
 
+Proyecto desarrollado por **Joel Bustos** como parte del **Challenge Alura – Agentes de IA**, aplicando técnicas de Inteligencia Artificial Generativa, Recuperación Aumentada por Generación (RAG) y búsqueda semántica sobre documentación corporativa.
+
+Tecnologías principales:
+
+- Google Gemini
+- LangChain
+- FAISS
+- Python
+- Google Colab
+- GitHub
+---
 > *"La Inteligencia Artificial no reemplaza el conocimiento de una organización; lo hace más accesible."*
 
 **FinNova AI Knowledge Assistant**
