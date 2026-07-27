@@ -210,13 +210,13 @@ GOOGLE_API_KEY=tu_api_key_aqui
 
 y asociar la API Key obtenida desde Google AI Studio.
 
-## 5. Ejecutar el Notebook
+## 5. Ejecutar la Aplicación o el Notebook
 
-Aplicación Web (Streamlit):
+- **Aplicación Web (Streamlit):**
+  ```bash
+  streamlit run app.py
 
-Entorno de Experimentación (Google Colab):
-
-streamlit run app.py
+-**Entorno de Experimentación (Google Colab)**:
 
 Abrir notebooks/Challenge_Alura_RAG.ipynb y ejecutar las celdas secuencialmente:
 
