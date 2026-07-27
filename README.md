@@ -137,6 +137,30 @@ Durante las pruebas realizadas, el asistente fue capaz de:
 - Mostrar el tiempo de respuesta de cada consulta.
 - Evitar generar respuestas cuando la información no estaba disponible en la documentación.
 
+# 📸 Evidencias de Ejecución y Pipeline RAG
+
+A continuación se muestra el funcionamiento paso a paso registrado durante las pruebas en Google Colab:
+
+### 1. Generación de Chunks y Modelo de Embeddings
+Se procesaron los documentos PDF generando 36 fragmentos (chunks) e inicializando el modelo de embeddings de Google.
+
+<img width="1101" height="559" alt="Fragmentacion y Embeddings" src="https://github.com/user-attachments/assets/fa511352-cbf9-4dab-afad-d6979b96256c" />
+
+---
+
+### 2. Creación y Almacenamiento del Índice FAISS
+Construcción de la base vectorial con los embeddings generados y guardado local del índice `finnova_vector_db`.
+
+<img width="1113" height="640" alt="Base Vectorial-FFAISS" src="https://github.com/user-attachments/assets/edae9626-ec7b-4d0c-9fc1-22e0da6695e4" />
+
+---
+
+### 3. Respuesta Final del Asistente (Inferencia)
+Consulta en tiempo real sobre el flujo de aprobación de pagos, demostrando recuperación precisa del contexto, identificación del documento fuente y tiempo de ejecución.
+
+<img width="1035" height="675" alt="Evidencia- Ejecucion" src="https://github.com/user-attachments/assets/3f9c38d8-79c6-4d98-bf8a-f1500bb76161" />
+
+
 Estas validaciones demuestran el correcto funcionamiento de la arquitectura RAG implementada.
 ---
 
