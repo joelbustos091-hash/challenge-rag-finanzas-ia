@@ -39,7 +39,7 @@ if api_key:
             vectorstore = inicializar_rag()
             retriever = vectorstore.as_retriever(search_kwargs={"k": 4})
             
-            llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0)
+            llm = ChatGoogleGenerativeAI(model="gemini-3.6-flash")
             
             prompt_template = """
             Eres un asistente de Inteligencia Artificial para FinNova Consulting SpA.
