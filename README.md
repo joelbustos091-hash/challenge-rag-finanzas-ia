@@ -173,11 +173,11 @@ Estas validaciones demuestran el correcto funcionamiento de la arquitectura RAG 
 # 🚀 Mejoras Futuras
 
 - Incorporar nuevos documentos automáticamente.
-- Implementar una interfaz web con Streamlit.
-- Integrar autenticación de usuarios.
-- Agregar memoria conversacional.
-- Permitir carga dinámica de documentos por parte del usuario.
-- Incorporar historial de consultas.
+- Agregar memoria conversacional para mantener el contexto entre preguntas.
+- Permitir la carga dinámica de documentos PDF desde la interfaz web.
+- Implementar autenticación de usuarios y roles de acceso.
+- Incorporar historial de consultas descargable.
+
 ---
 
 # 💻 Instalación
@@ -185,7 +185,7 @@ Estas validaciones demuestran el correcto funcionamiento de la arquitectura RAG 
 ## 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/JoelBustos/FinNova-AI-Knowledge-Assistant.git
+git clone [https://github.com/joelbustos091-hash/challenge-rag-finanzas-ia.git]
 ```
 
 ## 2. Acceder al proyecto
@@ -205,14 +205,17 @@ pip install -r requirements.txt
 Crear un secreto en Google Colab llamado:
 
 ```
-GOOGLE_API_KEY
+GOOGLE_API_KEY=tu_api_key_aqui
 ```
 
 y asociar la API Key obtenida desde Google AI Studio.
 
 ## 5. Ejecutar el Notebook
 
-Abrir el notebook en Google Colab y ejecutar las celdas en el siguiente orden:
+Aplicación Web (Streamlit):
+
+Entorno de Experimentación (Google Colab):
+Abrir notebooks/Challenge_Alura_RAG.ipynb y ejecutar las celdas secuencialmente:
 
 - Instalación de librerías
 - Configuración de Gemini
@@ -234,6 +237,7 @@ FinNova-AI-Knowledge-Assistant/
 ├── requirements.txt
 ├── .gitignore
 ├── LICENSE
+├── app.py
 │
 ├── notebooks/
 │   └── Challenge_Alura_FinNova_AI.ipynb
