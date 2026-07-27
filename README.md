@@ -185,7 +185,7 @@ Estas validaciones demuestran el correcto funcionamiento de la arquitectura RAG 
 ## 1. Clonar el repositorio
 
 ```bash
-git clone [https://github.com/joelbustos091-hash/challenge-rag-finanzas-ia.git]
+git clone [https://github.com/joelbustos091-hash/challenge-rag-finanzas-ia.git](https://github.com/joelbustos091-hash/challenge-rag-finanzas-ia.git)
 ```
 
 ## 2. Acceder al proyecto
@@ -215,6 +215,9 @@ y asociar la API Key obtenida desde Google AI Studio.
 Aplicación Web (Streamlit):
 
 Entorno de Experimentación (Google Colab):
+
+streamlit run app.py
+
 Abrir notebooks/Challenge_Alura_RAG.ipynb y ejecutar las celdas secuencialmente:
 
 - Instalación de librerías
