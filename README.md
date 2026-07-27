@@ -216,8 +216,8 @@ y asociar la API Key obtenida desde Google AI Studio.
   ```bash
   streamlit run app.py
 
--**Entorno de Experimentación (Google Colab)**:
-
+- **Entorno de Experimentación (Google Colab)**:
+  ```bash
 Abrir notebooks/Challenge_Alura_RAG.ipynb y ejecutar las celdas secuencialmente:
 
 - Instalación de librerías
